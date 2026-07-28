@@ -1,4 +1,4 @@
-int specific_longest_run(const vector<char>& a) {
+int specific_longest_run(const vector<T>& a) {
    int ans = 0, curr = 0;
 
    for (auto c : a) {
