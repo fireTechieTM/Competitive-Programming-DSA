@@ -1,5 +1,5 @@
 //Time Complexity: O(len(a))
-//Space Complexity: O(len(a))
+//Space Complexity: O(1)
 
 int specific_longest_run(const vector<T>& a) {
    int ans = 0, curr = 0;
