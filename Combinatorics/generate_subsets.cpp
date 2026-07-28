@@ -1,3 +1,6 @@
+//Time Complexity: O(len(a)(2^len(a))
+//Space Complexity: O(len(a)(2^len(a))
+
 vector<vector<T>> generate_subsets(const vector<T>& a) {
    vector<vector<T>> subsets;
 
