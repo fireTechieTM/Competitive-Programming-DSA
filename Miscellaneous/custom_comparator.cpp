@@ -1,4 +1,4 @@
 //Ascending
-bool Comparator(const TYPE& a, const TYPE& b) {
+bool Comparator(const T& a, const T& b) {
    return a < b;
 }
