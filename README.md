@@ -6,11 +6,16 @@ Plans:
 2. Add std information 
 3. Implement
   Difference Arrays
-  Segment Trees
+  Segment Trees (not including lazy propagation)
   DSU
   Prim’s Algorithm
+  Kruskal's Algorithm?
   Kahn’s Algorithm
   Dijksra’s Algorithm
   Bellman-Ford Algorithm
-4. Add Java std information
-5. Add Java versions of all templates
+  Submask Enumeration
+  Hamiltonian Path (visit every index once)
+  Hamiltonian Circuit (visit every index and come back to start)
+  TSP (it's a hamiltonian circuit)
+5. Add Java std information
+6. Add Java versions of all templates
