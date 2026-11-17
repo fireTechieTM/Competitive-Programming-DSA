@@ -6,7 +6,7 @@ using namespace std;
 //Space Complexity: O(1)
 
 using T = int;
-T longest_run(const vector<T>&list) {
+int longest_run(const vector<T>&list) {
    if (list.empty()) return 0;
 
    int ans = 1, curr = 1;
