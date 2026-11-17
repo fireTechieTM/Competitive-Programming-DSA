@@ -6,7 +6,7 @@ using namespace std;
 //Space Complexity: O(1)
 
 using T = int;
-T specific_longest_run(const vector<T>& a, T run_value) {
+int specific_longest_run(const vector<T>& a, T run_value) {
    int ans = 0, curr = 0;
 
    for (auto val : a) {
