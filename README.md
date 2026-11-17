@@ -6,6 +6,8 @@ Plans:
 2. Add std information 
 3. Implement
   Difference Arrays
+  Two Pointers (most common type from usaco guide)
+  Sliding Window (most common type from usaco guide)
   Segment Trees (not including lazy propagation)
   DSU
   Prim’s Algorithm
@@ -17,5 +19,6 @@ Plans:
   Hamiltonian Path (visit every index once)
   Hamiltonian Circuit (visit every index and come back to start)
   TSP (it's a hamiltonian circuit)
+4. Learn Java basics (methods, logic, if, for, while, dowhile, lists, reference)
 5. Add Java std information
 6. Add Java versions of all templates
