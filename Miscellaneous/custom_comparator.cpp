@@ -7,7 +7,7 @@ using namespace std;
 using T = int;
 struct Comparator {
     bool operator()(const T& a, const T& b) const {
-        return a < b;
+        return a < b; //Ascending order sort
     }
 };
 
