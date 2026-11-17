@@ -1,11 +1,16 @@
-//Time Complexity: O(len(a))
+#include <iostream>
+#include <vector>
+using namespace std;
+
+//Time Complexity: O(n)
 //Space Complexity: O(1)
 
-int specific_longest_run(const vector<T>& a) {
+using T = int;
+T specific_longest_run(const vector<T>& a, T run_value) {
    int ans = 0, curr = 0;
 
-   for (auto c : a) {
-       if(c == VALUE) {
+   for (auto val : a) {
+       if(val == run_value) {
            curr++;
            ans = max(ans, curr);
        }
@@ -13,4 +18,15 @@ int specific_longest_run(const vector<T>& a) {
    }
 
    return ans;
+}
+
+
+int main() {
+    vector<T> list = {1, -1, -1, 2, 5, 5, 5, 0};
+    int n = list.size();
+
+    int longest_run_of_same_values = specific_longest_run(list, 5);
+    cout << longest_run_of_same_values;
+
+    return 0;
 }
