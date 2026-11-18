@@ -5,8 +5,8 @@ using namespace std;
 //Time Complexity: O(sqrt(x))
 //Space Complexity: O(1)
 
-//Another way to do this would be by accessing
-//a prime array, (#p1 + 1)(#p2 + 1)(...)(#pn + 1)
+// Another way to do this would be by accessing
+// a prime array, (#p1 + 1)(#p2 + 1)(...)(#pn + 1)
 // that would take O(loglogn) per action
 // with O(nloglogn) setup
 
