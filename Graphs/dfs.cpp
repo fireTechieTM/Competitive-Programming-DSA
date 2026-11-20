@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+//Time Complexity: O(V + E)
+//Space Complexity: O(V + E)
+
 // g - graph, v - visited, c - current
 void dfs(vector<vector<int>>& g, vector<bool>& v, int c) {
    v[c] = true;
