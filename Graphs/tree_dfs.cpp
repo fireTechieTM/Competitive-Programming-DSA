@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+//Time Complexity: O(V + E)
+//Space Complexity: O(V + E)
+
 //t - tree, c - current, p - parent
 void dfs(vector<vector<int>>& t, int c, int p) {
    // example node process
