@@ -12,7 +12,6 @@ Plans:
   Kahn’s Algorithm
   Dijksra’s Algorithm
   Bellman-Ford Algorithm
-  Submask Enumeration
 4. Learn Java basics (methods, logic, if, for, while, dowhile, lists, reference)
 5. Add Java std information
 6. Add Java versions of all templates
