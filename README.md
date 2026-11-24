@@ -6,7 +6,6 @@ Plans:
 2. Add std information 
 3. Implement
   Difference Arrays
-  Two Pointers (most common type from usaco guide)
   Sliding Window (most common type from usaco guide)
   Segment Trees (not including lazy propagation)
   DSU
