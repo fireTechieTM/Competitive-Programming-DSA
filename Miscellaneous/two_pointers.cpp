@@ -3,6 +3,9 @@
 #include <utility>
 using namespace std;
 
+//Time Complexity: O(n)
+//Space Complexity: O(n)
+
 using T = int;
 //'list' must be sorted
 pair<int, int> two_pointers(vector<T>& list, T target) {
