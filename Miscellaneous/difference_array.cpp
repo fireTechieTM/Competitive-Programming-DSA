@@ -2,11 +2,16 @@
 #include <vector>
 using namespace std;
 
+
+//Time Complexity: O(1)
+//Space Complexity: O(1)
 void difference_array_set(vector<int>& list, int start, int end, int value) {
     list[start] += value;
     if(end + 1 < list.size()) list[end + 1] -= value;
 }
 
+//Time Complexity: O(n)
+//Space Complexity: O(n)
 vector<int> difference_array_calculate(vector<int>& list) {
     int current = 0;
     vector<int> prefix(list.size(), 0);
