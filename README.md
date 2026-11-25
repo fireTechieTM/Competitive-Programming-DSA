@@ -5,13 +5,13 @@ Plans:
 1. Update all templates with descriptive variable names and use cases with a main function
 2. Add std information 
 3. Implement
-  Segment Trees (not including lazy propagation)
+  Dijksra’s Algorithm
+  Bellman-Ford Algorithm
+  Kahn’s Algorithm
   DSU
   Prim’s Algorithm
   Kruskal's Algorithm
-  Kahn’s Algorithm
-  Dijksra’s Algorithm
-  Bellman-Ford Algorithm
-4. Learn Java basics (methods, logic, if, for, while, dowhile, lists, reference)
-5. Add Java std information
-6. Add Java versions of all templates
+  Segment Trees (not including lazy propagation)
+5. Learn Java basics (methods, logic, if, for, while, dowhile, lists, reference)
+6. Add Java std information
+7. Add Java versions of all templates
